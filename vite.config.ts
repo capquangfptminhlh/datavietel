@@ -5,7 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: '/dataviettel/',
+    base: '/datavietel/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
